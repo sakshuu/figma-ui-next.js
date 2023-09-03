@@ -1,7 +1,11 @@
 import React from 'react'
+import sign from "./../img/sign.png";
 
 const SignUp = () => {
   return <>
+  <div className="row">
+    <div className="col-md-8">
+
             <div class="card">
               <div class="card-header">Signup</div>
               <div class="card-body">
@@ -34,7 +38,7 @@ const SignUp = () => {
                     class="form-control"
                     id="password"
                     placeholder="Enter Your Password"
-                  />
+                    />
                   <div class="valid-feedback">Looks good!</div>
                   <div class="invalid-feedback">Please choose a password.</div>
                 </div>
@@ -61,7 +65,11 @@ const SignUp = () => {
                 </p>
               </div>
             </div>
-        
+  </div>
+            <div className="col-md-4 p-4">
+            <img src={sign} width={350} alt="" />
+        </div>
+                    </div>
   </>
 }
 

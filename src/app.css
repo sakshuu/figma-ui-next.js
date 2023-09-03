@@ -45,3 +45,7 @@
     background-color: white;
 border-bottom: 1px solid black;
 }
+.modal-content{
+    width: 75vw;
+    margin-left: -350px;
+}
