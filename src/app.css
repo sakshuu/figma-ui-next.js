@@ -33,3 +33,15 @@
     gap: 7px;
     align-items: baseline;
 }
+.underline{
+    text-decoration: underline;
+}
+.navbar-btn{
+    display: flex;
+    gap: 10px;
+    align-items: end;
+}
+.bg{
+    background-color: white;
+border-bottom: 1px solid black;
+}
