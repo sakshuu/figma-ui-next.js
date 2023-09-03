@@ -20,3 +20,16 @@
     top: 60%;
     left: 10%;
 }
+.main-inline{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.main-card{
+    padding: 20px;
+}
+.spaces{
+    display: flex;
+    gap: 7px;
+    align-items: baseline;
+}

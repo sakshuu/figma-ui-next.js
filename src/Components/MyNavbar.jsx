@@ -1,11 +1,12 @@
 import React from 'react'
+import icon from "./../img/icon.png";
 
 const MyNavbar = () => {
   return <>
      <nav className="navbar navbar-expand-lg bg-light">
       <div className="container d-flex justify-content-between align-items-baseline">
         <a className="navbar-brand" href="#">
-          <img src="/img/icon.png" width={170} alt="" />
+          <img src={icon} width={170} alt="" />
         </a>
         <div className="d-flex justify-content-center align-items-baseline m-0"> 
 
