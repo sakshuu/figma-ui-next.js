@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+.text-white{
+    color: white;
+}
+.text-bold{
+    font-weight: bold;
+}
+.heroBackground{
+    width: 100vw;
+}
+.main{
+    position: relative;
+}
+.sub{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+}
