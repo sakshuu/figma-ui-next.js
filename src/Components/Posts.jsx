@@ -1,6 +1,7 @@
 import React from 'react'
 import article from "./../img/article.png";
 import PostNavbar from './PostNavbar';
+import Ieisure from "./../img/Ieisure.png";
 
 const Posts = () => {
   return <>
@@ -46,7 +47,7 @@ const Posts = () => {
 </div>
             </div>
             <div class="card mb-4">
-<img src={article} alt="" />
+<img src={article} width={20} alt="" />
 <div className='main-card'>
     <div className='spaces'>
 <div><i class="bi bi-pencil-square"></i></div>
@@ -127,12 +128,41 @@ const Posts = () => {
 
                 <div>
                 <div></div>
-<input type="search" placeholder='|Enter your location' name="" id="" />
+<input type="search" placeholder='|Enter your location' className='mt-4 mb-4' name="" id="" />
                 <div></div>
                 </div>
-<p>Your location will help us serve better and extend a personalised experience.</p>
+<p className='mt-2 mb-2'>Your location will help us serve better and extend a personalised experience.</p>
 
 <h6>REcommended Groups</h6>
+
+<div className='main-inline'>
+<div className='spaces'>
+  <img src={Ieisure} alt="" />
+  <h6>sakshi</h6>
+</div>
+  <div className='batch'>follow</div>
+</div>
+<div className='main-inline'>
+<div className='spaces'>
+  <img src={Ieisure} alt="" />
+  <h6>sakshi</h6>
+</div>
+  <div className='batch'>follow</div>
+</div>
+<div className='main-inline'>
+<div className='spaces'>
+  <img src={Ieisure} alt="" />
+  <h6>sakshi</h6>
+</div>
+  <div className='batch'>follow</div>
+</div>
+<div className='main-inline'>
+<div className='spaces'>
+  <img src={Ieisure} alt="" />
+  <h6>sakshi</h6>
+</div>
+  <div className='batch'>follow</div>
+</div>
             </div>
         </div>
     </div>

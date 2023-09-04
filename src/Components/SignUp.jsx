@@ -7,7 +7,7 @@ const SignUp = () => {
     <div className="col-md-8">
 
             <div class="card">
-              <div class="card-header">Signup</div>
+              <h5 class="card-header text-mid">Signup</h5>
               <div class="card-body">
                 <div>
                   <label for="name" class="form-label">First name</label>
@@ -68,6 +68,7 @@ const SignUp = () => {
   </div>
             <div className="col-md-4 p-4">
             <img src={sign} width={350} alt="" />
+            <p>By signing up, you agree to our Terms & conditions, Privacy policy</p>
         </div>
                     </div>
   </>

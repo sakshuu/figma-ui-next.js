@@ -30,8 +30,8 @@
 }
 .spaces{
     display: flex;
-    gap: 7px;
-    align-items: baseline;
+    gap: 9px;
+    align-items: flex-end;
 }
 .underline{
     text-decoration: underline;
@@ -48,4 +48,7 @@ border-bottom: 1px solid black;
 .modal-content{
     width: 75vw;
     margin-left: -350px;
+}
+.text-mid{
+    text-align: center;
 }
