@@ -220,7 +220,7 @@ const Posts = () => {
                 </div>
 <p className='mt-2 mb-2'>Your location will help us serve better and extend a personalised experience.</p>
 
-<h6 className='mt-4 mb-2'> <span><i class="bi bi-hand-thumbs-up"></i></span>  REcommended Groups</h6>
+<h6 className='mt-4 mb-4'> <span><i class="bi bi-hand-thumbs-up"></i></span>  REcommended Groups</h6>
 
 
 <div className='main-inline'>
