@@ -31,7 +31,7 @@
 .spaces{
     display: flex;
     gap: 9px;
-    align-items: flex-end;
+    align-items: end;
 }
 .underline{
     text-decoration: underline;
