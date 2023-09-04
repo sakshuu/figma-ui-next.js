@@ -123,7 +123,7 @@ const Posts = () => {
 </div>
             </div>
         </div>
-        <div className="col-md-4">
+        <div className="col-md-4 center">
             <div className="">
 
                 <div>
