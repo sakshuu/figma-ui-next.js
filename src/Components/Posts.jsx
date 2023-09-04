@@ -8,7 +8,7 @@ const Posts = () => {
   <div className="container mt-4">
     <PostNavbar/>
     <div className="row mt-4 mb-4">
-        <div className="col-md-8">
+        <div className="col-md-8 col-sm-12">
             <div class="card mb-4">
 <img src={article} alt="" />
 <div className='main-card'>

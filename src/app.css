@@ -55,9 +55,6 @@ border-bottom: 1px solid black;
 .center{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-    /* margin: auto; */
-    /* padding: auto; */
 }
 .batch{
     background-color: gainsboro;
