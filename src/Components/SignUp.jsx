@@ -67,7 +67,7 @@ const SignUp = () => {
             </div>
   </div>
             <div className="col-md-4 p-4">
-            <img src={sign} width={350} alt="" />
+            <img src={sign} width={200} alt="" />
             <p>By signing up, you agree to our Terms & conditions, Privacy policy</p>
         </div>
                     </div>
